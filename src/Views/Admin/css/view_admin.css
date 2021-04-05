@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1344 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.4em;
+    background-color: #141414;
+}
+
+.snip1344 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.snip1344 .background {
+    width: 100%;
+    vertical-align: top;
+    opacity: 0.2;
+    -webkit-filter: grayscale(100%) blur(10px);
+    filter: grayscale(100%) blur(10px);
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.snip1344 figcaption {
+    width: 100%;
+    padding: 15px 25px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.snip1344 .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    max-width: 100px;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+.snip1344 h3 {
+    margin: 0 0 5px;
+    font-weight: 400;
+}
+
+.snip1344 h3 span {
+    display: block;
+    font-size: 0.6em;
+    color: #f39c12;
+    opacity: 0.75;
+}
+
+.snip1344 i {
+    padding: 10px 5px;
+    display: inline-block;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.65;
+}
+
+.snip1344 a {
+    text-decoration: none;
+}
+
+.snip1344 i:hover {
+    opacity: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1344:hover .background,
+.snip1344.hover .background {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+a {
+    direction: none;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(81, 81, 243);
+}
+
+.search {
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 8px;
+}
+
+.form-search {
+    margin: 0 10% 2% 10%;
+}
+
+.content {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.btn_detail {
+    border: rgb(255, 153, 0) solid 1px;
+    background-color: #f0cfc8;
+    color: rgb(255, 153, 0);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.btn_detail:hover {
+    background-color: rgb(255, 153, 0);
+    color: #f0cfc8;
+}
+
+
+/* CSS OF PRODUCT  AND USER MANAGE */
+
+a {
+    direction: none;
+    color: orangered;
+}
+
+a:hover {
+    direction: none;
+    text-decoration: none;
+    color: #f0cfc8;
+}
+
+.search {
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 8px;
+}
+
+.form-search {
+    margin: 0 10% 2% 10%;
+}
+
+.content {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.btn_update {
+    border: orangered solid 1px;
+    background-color: #f0cfc8;
+    color: orangered;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.btn_update:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.btn_delete {
+    border: orangered solid 1px;
+    background-color: #f0cfc8;
+    color: orangered;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.btn_delete:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#error_search {
+    color: red;
+    margin-left: 15px;
+}
+
+.mini-img {
+    width: 50px;
+    height: auto;
+}
+
+.form-create {
+    margin-left: 10%;
+    padding-bottom: 20px;
+}
+
+.pagination {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    margin: 0 40% 5% 40%;
+}
+
+.pagination .click-page {
+    align-content: center;
+    border: 1px solid #f7544a;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+}
+
+.pagination .current-page {
+    align-content: center;
+    border: 1px solid #f7544a;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #f7544a;
+    margin-left: 5px;
+}
+
+#reload {}
+
+.list-manage {
+    border: #f7544a 1px solid;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
